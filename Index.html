@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>H4ked | Software Engineer & Sci-Fi Artist</title>
+    
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    
+    <script src="js/tailwind-config.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/lang.js"></script>
+    
+    <link rel="stylesheet" href="css/styles.css"> 
+    
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+</head>
+<body class="font-body-md antialiased">
+
+    <div class="fixed inset-0 animated-grid z-0"></div>
+    <div class="fixed inset-0 bg-gradient-to-b from-transparent via-background/40 to-background z-0"></div>
+
+    <nav class="fixed top-0 w-full z-50 bg-background/60 backdrop-blur-md border-b border-white/10 shadow-[0_0_20px_rgba(0,219,233,0.15)] transition-all duration-300 ease-in-out">
+        <div class="flex justify-between items-center max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop h-20">
+            <div class="font-display-lg text-headline-md tracking-tighter text-primary">H4ked</div>
+            <div class="hidden md:flex items-center gap-gutter">
+                <!-- <a class="font-label-mono text-label-mono text-primary border-b-2 border-primary pb-1" href="#">
+                    <span class="lang-en">Portfolio</span><span class="lang-es" style="display: none;">Portafolio</span>
+                </a> -->
+                <!-- <a class="font-label-mono text-label-mono text-on-surface-variant hover:text-primary transition-colors hover:drop-shadow-[0_0_8px_rgba(0,219,233,0.6)]" href="#">
+                    <span class="lang-en">Commissions</span><span class="lang-es" style="display: none;">Comisiones</span>
+                </a>
+                <a class="font-label-mono text-label-mono text-on-surface-variant hover:text-primary transition-colors hover:drop-shadow-[0_0_8px_rgba(0,219,233,0.6)]" href="#">
+                    <span class="lang-en">About</span><span class="lang-es" style="display: none;">Sobre Mí</span>
+                </a> -->
+            </div>
+            <div class="flex items-center gap-base">
+                <!-- <button class="material-symbols-outlined p-2 text-on-surface-variant hover:text-primary transition-all duration-300" data-icon="terminal">terminal</button> -->
+                <button id="lang-toggle" class="material-symbols-outlined p-2 text-on-surface-variant hover:text-primary transition-all duration-300" data-icon="language">language</button>
+                <!-- <button class="ml-base px-6 py-2 bg-primary-container text-on-primary font-label-mono text-label-mono rounded-lg hover:shadow-[0_0_15px_rgba(0,240,255,0.5)] transition-all duration-300">
+                    <span class="lang-en">Connect</span><span class="lang-es" style="display: none;">Conectar</span>
+                </button> -->
+            </div>
+        </div>
+    </nav>
+
+    <main class="relative z-10 pt-32 pb-24 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+        
+        <section class="flex flex-col items-center mb-24 text-center">
+            <div class="relative mb-base">
+                <div class="absolute -inset-1 bg-primary-container blur-xl opacity-20 animate-pulse"></div>
+                <div class="relative w-32 h-32 md:w-40 md:h-40 rounded-full border-2 border-primary-container overflow-hidden neon-glow-cyan">
+                    <img alt="H4ked Profile" class="w-full h-full object-cover" src="assets/images/Perfil.jpeg"/>
+                </div>
+            </div>
+            <h1 class="font-display-lg text-display-lg-mobile md:text-display-lg text-primary text-glow mb-2 terminal-text">H4ked</h1>
+            <p class="font-label-mono text-label-mono text-primary-fixed-dim uppercase tracking-[0.2em] mb-6">Software Engineer // Sci-Fi Artist // Indie Dev</p>
+            
+            <div class="flex gap-gutter mb-12">
+                <a class="group flex flex-col items-center" href="https://www.instagram.com/h4ked_log/" target="_blank">
+                    <div class="w-12 h-12 glass-card rounded-lg flex items-center justify-center transition-all duration-300 group-hover:border-primary-container group-hover:scale-110">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                        </svg>
+                    </div>
+                    <span class="mt-2 font-label-caps text-label-caps text-on-surface-variant opacity-0 group-hover:opacity-100 transition-opacity">Instagram</span>
+                </a>
+                <a class="group flex flex-col items-center" href="#">
+                    <div class="w-12 h-12 glass-card rounded-lg flex items-center justify-center transition-all duration-300 group-hover:border-primary-container group-hover:scale-110">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+                            <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+                        </svg>
+                    </div>
+                    <span class="mt-2 font-label-caps text-label-caps text-on-surface-variant opacity-0 group-hover:opacity-100 transition-opacity">TikTok</span>
+                </a>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-gutter w-full max-w-4xl text-left">
+                <div class="glass-card p-gutter rounded-xl relative overflow-hidden group">
+                    <div class="absolute top-0 left-0 w-1 h-full bg-primary-container opacity-50"></div>
+                    <span class="font-label-caps text-label-caps text-primary-fixed-dim mb-4 block opacity-60">ENG_LANG_MODULE</span>
+                    <p class="font-body-lg text-body-lg text-on-surface leading-relaxed">
+                        Compiling code. Illustrating the future. Software Engineer, Sci-Fi Artist & Indie Dev. 
+                    </p>
+                </div>
+                <div class="glass-card p-gutter rounded-xl relative overflow-hidden group">
+                    <div class="absolute top-0 left-0 w-1 h-full bg-secondary-container opacity-50"></div>
+                    <span class="font-label-caps text-label-caps text-secondary mb-4 block opacity-60">ESP_LANG_MODULE</span>
+                    <p class="font-body-lg text-body-lg text-on-surface leading-relaxed">
+                        Compilando código. Ilustrando el futuro. Ingeniero de Software, Artista Sci-Fi y Dev Indie. 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-24">
+            <div class="flex items-center gap-base mb-12">
+                <div class="h-px flex-1 bg-gradient-to-r from-transparent via-outline-variant/30 to-transparent"></div>
+                <h2 class="font-headline-md text-headline-md text-primary text-center px-6 italic">
+                    <span class="lang-en">Art & Commissions</span><span class="lang-es" style="display: none;">Arte y Comisiones</span>
+                </h2>
+                <div class="h-px flex-1 bg-gradient-to-r from-transparent via-outline-variant/30 to-transparent"></div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-gutter">
+                
+                <div class="glass-card rounded-xl overflow-hidden flex flex-col neon-glow-cyan-hover transition-all duration-500 group">
+                    <div class="relative h-48 overflow-hidden">
+                        <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Artistree" src="assets/images/Artistree.jpeg"/>
+                        <div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest to-transparent opacity-80"></div>
+                        <div class="absolute top-4 right-4">
+                            <span class="px-3 py-1 bg-primary-container/20 border border-primary-container/50 text-primary font-label-caps text-[10px] rounded-full backdrop-blur-md">
+                                <span class="lang-en">STATUS: ACTIVE</span><span class="lang-es" style="display: none;">ESTADO: ACTIVO</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="p-base flex-1 flex flex-col">
+                        <h3 class="font-headline-sm text-headline-sm text-primary mb-2">
+                            <span class="lang-en">Open Commissions (Artistree)</span><span class="lang-es" style="display: none;">Comisiones Abiertas (Artistree)</span>
+                        </h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant mb-6">
+                            <span class="lang-en">Secure & fast booking for stylized portraits and character designs.</span>
+                            <span class="lang-es" style="display: none;">Reserva segura y rápida para retratos estilizados y diseños de personajes.</span>
+                        </p>
+                        <div class="mt-auto">
+                            <a class="inline-flex items-center gap-2 font-label-mono text-label-mono text-primary group-hover:translate-x-2 transition-transform" href="https://artistree.io/h4ked" target="_blank">
+                                <span class="lang-en">VIEW PRICING</span><span class="lang-es" style="display: none;">VER PRECIOS</span>
+                                <span class="material-symbols-outlined text-[18px]" data-icon="arrow_forward">arrow_forward</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-xl overflow-hidden flex flex-col neon-glow-cyan-hover transition-all duration-500 group">
+                    <div class="relative h-48 overflow-hidden">
+                        <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Vgen" src="assets/images/Vgen.jpeg"/>
+                        <div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest to-transparent opacity-80"></div>
+                        <div class="absolute top-4 right-4">
+                            <span class="px-3 py-1 bg-secondary-container/20 border border-secondary-container/50 text-primary font-label-caps text-[10px] rounded-full backdrop-blur-md">
+                                <span class="lang-en">SLOTS: LIMITED</span><span class="lang-es" style="display: none;">CUPOS: LIMITADOS</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="p-base flex-1 flex flex-col">
+                        <h3 class="font-headline-sm text-headline-sm text-primary mb-2">
+                            <span class="lang-en">Character Lore & Special Slots (VGen)</span><span class="lang-es" style="display: none;">Lore de Personajes y Cupos Especiales (VGen)</span>
+                        </h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant mb-6">
+                            <span class="lang-en">Explore my OCs, world-building, and custom design slots for unique commissions. (VGen account required.)</span>
+                            <span class="lang-es" style="display: none;">Explora mis OCs, world-building y cupos de diseño personalizado para comisiones únicas. (Se necesita una cuenta de Vgen.)</span>
+                        </p>
+                        <div class="mt-auto">
+                            <a class="inline-flex items-center gap-2 font-label-mono text-label-mono text-primary group-hover:translate-x-2 transition-transform" href="https://vgen.co/H4ked/requested" target="_blank">
+                                <span class="lang-en">EXPLORE LORE</span><span class="lang-es" style="display: none;">EXPLORAR LORE</span>
+                                <span class="material-symbols-outlined text-[18px]" data-icon="arrow_forward">arrow_forward</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-xl overflow-hidden flex flex-col neon-glow-cyan-hover transition-all duration-500 group">
+                    <div class="relative h-48 overflow-hidden">
+                        <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Cara social media." src="assets/images/CaraSocialMedia.jpeg"/>
+                        <div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest to-transparent opacity-80"></div>
+                        <div class="absolute top-4 right-4">
+                            <span class="px-3 py-1 bg-outline-variant/20 border border-outline-variant/50 text-on-surface-variant font-label-caps text-[10px] rounded-full backdrop-blur-md">
+                                <span class="lang-en">ARCHIVE: V2.4</span><span class="lang-es" style="display: none;">ARCHIVO: V2.4</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="p-base flex-1 flex flex-col">
+                        <h3 class="font-headline-sm text-headline-sm text-primary mb-2">
+                            <span class="lang-en">Official Art Portfolio (Cara)</span><span class="lang-es" style="display: none;">Portafolio Oficial de Arte (Cara)</span>
+                        </h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant mb-6">
+                            <span class="lang-en">High-res gallery and detailed Portfolio of professional and personal works.</span>
+                            <span class="lang-es" style="display: none;">Galería en alta resolución y portafolio detallado de trabajos profesionales y personales.</span>
+                        </p>
+                        <div class="mt-auto">
+                            <a class="inline-flex items-center gap-2 font-label-mono text-label-mono text-primary group-hover:translate-x-2 transition-transform" href="https://cara.app/h4ked" target="_blank">
+                                <span class="lang-en">ENTER GALLERY</span><span class="lang-es" style="display: none;">ENTRAR A GALERÍA</span>
+                                <span class="material-symbols-outlined text-[18px]" data-icon="arrow_forward">arrow_forward</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="mb-24">
+            <div class="glass-card p-margin-desktop rounded-2xl relative">
+                <div class="scanline"></div>
+                <div class="grid md:grid-cols-2 gap-12">
+                    <div>
+                        <h3 class="font-headline-md text-headline-md text-primary mb-6">
+                            <span class="lang-en">Development Stack</span><span class="lang-es" style="display: none;">Stack de Desarrollo</span>
+                        </h3>
+                        <div class="flex flex-col gap-8">
+                    
+                        <div>
+                            <h4 class="font-label-caps text-label-caps text-primary-fixed-dim mb-3 opacity-70">
+                                <span class="lang-en">// FRONT-END</span>
+                                <span class="lang-es" style="display: none;">// FRONT-END</span>
+                            </h4>
+                            <div class="flex flex-wrap gap-base">
+                                <span class="px-4 py-2 border border-outline-variant rounded-lg font-label-mono text-label-mono text-on-surface-variant bg-surface-container/30">HTML / CSS / JavaScript</span>
+                                <span class="px-4 py-2 border border-outline-variant rounded-lg font-label-mono text-label-mono text-on-surface-variant bg-surface-container/30">Tailwind CSS</span>
+                                <span class="px-4 py-2 border border-outline-variant rounded-lg font-label-mono text-label-mono text-on-surface-variant bg-surface-container/30">Bootstrap</span>
+                                <span class="px-4 py-2 border border-outline-variant rounded-lg font-label-mono text-label-mono text-on-surface-variant bg-surface-container/30">Blazor</span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h4 class="font-label-caps text-label-caps text-primary-fixed-dim mb-3 opacity-70">
+                                <span class="lang-en">// BACK-END & .NET</span>
+                                <span class="lang-es" style="display: none;">// BACK-END Y .NET</span>
+                            </h4>
+                            <div class="flex flex-wrap gap-base">
+                                <span class="px-4 py-2 border border-outline-variant rounded-lg font-label-mono text-label-mono text-on-surface-variant bg-surface-container/30">C#</span>
+                                <span class="px-4 py-2 border border-outline-variant rounded-lg font-label-mono text-label-mono text-on-surface-variant bg-surface-container/30">ASP.NET Core (MVC & Web API)</span>
+                                <span class="px-4 py-2 border border-outline-variant rounded-lg font-label-mono text-label-mono text-on-surface-variant bg-surface-container/30">Entity Framework / ADO.NET</span>
+                                <span class="px-4 py-2 border border-outline-variant rounded-lg font-label-mono text-label-mono text-on-surface-variant bg-surface-container/30">SQL Server</span>
+                                <span class="px-4 py-2 border border-outline-variant rounded-lg font-label-mono text-label-mono text-on-surface-variant bg-surface-container/30">Supabase</span>
+                                <span class="px-4 py-2 border border-outline-variant rounded-lg font-label-mono text-label-mono text-on-surface-variant bg-surface-container/30">JWT & Auth</span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h4 class="font-label-caps text-label-caps text-primary-fixed-dim mb-3 opacity-70">
+                                <span class="lang-en">// GAME DEV & APPS</span>
+                                <span class="lang-es" style="display: none;">// GAME DEV Y APPS</span>
+                            </h4>
+                            <div class="flex flex-wrap gap-base">
+                                <span class="px-4 py-2 border border-outline-variant rounded-lg font-label-mono text-label-mono text-on-surface-variant bg-surface-container/30">Unity</span>
+                                <span class="px-4 py-2 border border-outline-variant rounded-lg font-label-mono text-label-mono text-on-surface-variant bg-surface-container/30">Luau</span>
+                                <span class="px-4 py-2 border border-outline-variant rounded-lg font-label-mono text-label-mono text-on-surface-variant bg-surface-container/30">Roblox Studio</span>
+                                <span class="px-4 py-2 border border-outline-variant rounded-lg font-label-mono text-label-mono text-on-surface-variant bg-surface-container/30">.NET MAUI</span>
+                            </div>
+                        </div>
+
+                </div>
+                    </div>
+                    <div>
+                        <h3 class="font-headline-md text-headline-md text-primary mb-6">
+                            <span class="lang-en">Creative Toolkit</span><span class="lang-es" style="display: none;">Herramientas Creativas</span>
+                        </h3>
+                        <div class="flex flex-col gap-8">
+                                <div>
+                                <h4 class="font-label-caps text-label-caps text-secondary mb-3 opacity-70">
+                                    <span class="lang-en">// 2D ART & DESIGN</span>
+                                    <span class="lang-es" style="display: none;">// ARTE 2D Y DISEÑO</span>
+                                </h4>
+                                <div class="flex flex-wrap gap-base">
+                                    <span class="px-4 py-2 border border-secondary-container/30 rounded-lg font-label-mono text-label-mono text-secondary bg-surface-container/30">Clip Studio Paint</span>
+                                    <span class="px-4 py-2 border border-secondary-container/30 rounded-lg font-label-mono text-label-mono text-secondary bg-surface-container/30">Photoshop</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <h4 class="font-label-caps text-label-caps text-secondary mb-3 opacity-70">
+                                    <span class="lang-en">// 3D & VIDEO</span>
+                                    <span class="lang-es" style="display: none;">// 3D Y VIDEO</span>
+                                </h4>
+                                <div class="flex flex-wrap gap-base">
+                                    <span class="px-4 py-2 border border-secondary-container/30 rounded-lg font-label-mono text-label-mono text-secondary bg-surface-container/30">Blender 3D</span>
+                                    <span class="px-4 py-2 border border-secondary-container/30 rounded-lg font-label-mono text-label-mono text-secondary bg-surface-container/30">Adobe Premiere Pro</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <h4 class="font-label-caps text-label-caps text-secondary mb-3 opacity-70">
+                                    <span class="lang-en">// AUDIO & SOUND DESIGN</span>
+                                    <span class="lang-es" style="display: none;">// AUDIO Y DISEÑO SONORO</span>
+                                </h4>
+                                <div class="flex flex-wrap gap-base">
+                                    <span class="px-4 py-2 border border-secondary-container/30 rounded-lg font-label-mono text-label-mono text-secondary bg-surface-container/30">Sonic Pi</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="relative z-10 w-full py-base bg-surface-container-lowest/80 backdrop-blur-xl border-t border-white/5">
+        <div class="flex flex-col md:flex-row justify-between items-center max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop gap-base">
+            <div class="flex flex-col md:flex-row items-center gap-6">
+                <span class="font-label-caps text-label-caps text-on-surface">H4ked</span>
+                <p class="font-label-mono text-label-mono text-on-surface-variant">© 2026 H4ked. <span >All rights reserved.</span> [Software Engineer & Sci-Fi Artist]</p>
+            </div>
+            <div class="flex gap-gutter mx-1">
+                <a class="font-label-mono text-label-mono text-on-surface-variant hover:text-secondary transition-all scale-105 transition-transform" href="https://www.instagram.com/h4ked_log/">Instagram</a>
+                <!-- <a class="font-label-mono text-label-mono text-on-surface-variant hover:text-secondary transition-all scale-105 transition-transform" href="#">TikTok</a> -->
+                <a class="font-label-mono text-label-mono text-on-surface-variant hover:text-secondary transition-all scale-105 transition-transform" href="https://vgen.co/H4ked/requested">VGen</a>
+                <a class="font-label-mono text-label-mono text-on-surface-variant hover:text-secondary transition-all scale-105 transition-transform" href="https://artistree.io/h4ked">Artistree</a>
+                <a class="font-label-mono text-label-mono text-on-surface-variant hover:text-secondary transition-all scale-105 transition-transform" href="https://cara.app/h4ked">Cara</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
